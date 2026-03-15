@@ -1,5 +1,4 @@
 
-/* Limit height and width for larger screens only */
 @media (min-width: 1024px) {
     body {
         max-width: 530px;
