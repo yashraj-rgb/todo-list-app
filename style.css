@@ -1,8 +1,14 @@
-body{
 
-flex-direction:column;
-align-items:center;
+/* Limit height and width for larger screens only */
+@media (min-width: 1024px) {
+    body {
+        max-width: 530px;
+        max-height: 720px;
+        margin: 0 auto;
+        overflow: auto;
+    }
 }
+
 .head{
     /* display: flex; */
     justify-content: space-between;
